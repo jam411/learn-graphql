@@ -6,6 +6,7 @@
   "author": "jam411",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^3.13.0"
+    "apollo-server": "^3.13.0",
+    "graphql": "^16.8.1"
   }
 }
