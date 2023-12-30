@@ -1,0 +1,11 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "repository": "https://github.com/jam411/learn-graphql.git",
+  "author": "jam411",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.13.0"
+  }
+}

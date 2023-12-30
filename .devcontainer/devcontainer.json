@@ -1,0 +1,32 @@
+{
+  "name": "Learn GraphQL Dev Container",
+  "dockerComposeFile": [
+    "../compose.yml"
+  ],
+  "service": "learn-graphql",
+  "workspaceFolder": "/workspace/learn-graphql",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "mhutchie.git-graph",
+    "eamodio.gitlens",
+    "github.vscode-pull-request-github",
+    "cschleiden.vscode-github-actions",
+    "msjsdiag.debugger-for-chrome",
+    "firefox-devtools.vscode-firefox-debug",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "shinnn.stylelint",
+    "stylelint.vscode-stylelint"
+  ],
+  "postCreateCommand": "yarn",
+  "remoteUser": "node"
+}

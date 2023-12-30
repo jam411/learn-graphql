@@ -1,0 +1,10 @@
+version: '3'
+services:
+  learn-graphql:
+    container_name: learn-graphql
+    image: node
+    tty: true
+    volumes:
+      - .:/workspace/learn-graphql
+    ports:
+      - "3000:3000"
